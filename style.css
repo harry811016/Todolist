@@ -17,3 +17,7 @@
     border: 1 none;
     border-radius: 5px; 
   }
+  
+  .fa-pencil, .fa-trash, .todoitem {
+    cursor: pointer;
+  }

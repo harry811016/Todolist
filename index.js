@@ -16,7 +16,7 @@ for (let todo of todos) {
 function addItem(text) {
   let newItem = document.createElement("li")
   newItem.innerHTML = `
-    <label for="todo">${text}</label>
+    <label for="todo" class="todoitem">${text}</label>
     <i class="edit fa fa-pencil"></i>
     <i class="delete fa fa-trash"></i>
   `;
